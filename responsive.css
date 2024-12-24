@@ -1,0 +1,728 @@
+@media screen and (max-width: 1366px){
+    .enhancing{
+        min-height: 1200px;
+    }
+    
+    .enhancing .container .row .enhance-layout{
+        padding-bottom: 190px;
+    }
+    
+    .enhancing .container .row .enhance-layout .col-30{
+        max-width: 40%;
+        flex: 0 0 40%;
+        background-color: #F5FEFF;
+        margin: 10px 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+    .enhancing .container .row .enhance-layout .col-30 h3::after{
+        display: none;
+    }
+
+    .enhancing .container .row .subscribe{
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    /* ===========end========== */
+    .end .container .row .col-30{
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 50px;
+    }
+
+    /* ===========outsourcing============= */
+    .outsourcing .container .row .heading h2{
+        padding-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    /* ================banner=============== */
+    .banner{
+        background: url(./IMG/banner-img.png) no-repeat center 50%;
+    }
+
+    .outsourcing .container .row .out-layout{
+        width: 100%;
+        padding-top: 41px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .outsourcing .container .row .out-layout .col-30{
+        background: url(../IMG/out-back.jpg) no-repeat center center;
+        background-size: cover;
+        padding: 50px;
+        background-image: unset;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 15px; */
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    /* =========virtual============= */
+    .virtual .container .row .head-layout{
+        display: flex;
+        max-width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .virtual .container .row .heading h2{
+        padding-top: 40px;
+    }
+
+    .virtual .container .row .head-layout .col-50{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .virtual .container .row #manage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .virtual .container .row .head-layout #project{
+        max-width: 65%;
+        flex-basis: 65%;
+    }
+
+    .virtual .container .row .vir-layout{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .virtual .container .row .vir-layout .col-25{
+        max-width: 30%;
+        flex-basis: 30%;
+    }
+    /* ============enhancing==================== */
+    .enhancing .container .row .enhance-layout .col-30{
+        max-width: 70%;
+        flex: 0 0 70%;
+        background-color: #F5FEFF;
+        margin: 10px 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        padding: 20px;
+        transition: all 0.3s ease;
+    }    
+}
+@media screen and (max-width:992px) {
+    /* ===========group=========== */
+    #slider{
+        position: absolute;
+        right: 0;
+        top: 5%;
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+
+    .group .container .row .heading .col-50 h2{
+        text-align: center;
+    }
+
+    .group .container .row .heading .col-50 p{
+        text-align: center;
+    }
+    
+    /* ============banner============ */
+    .banner .container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner .container .row .col-50{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .banner .container .row .col-50 h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .banner .container .row .col-50 p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .banner .container .row .col-50 a{
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+        left: 40%;
+    }
+    
+    /* =========foundation======= */
+    .foundation .container .heading h2{
+        margin-inline: 50px;
+        font-size: 40px;
+    }
+    .enhancing .container .row .subscribe .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .virtual .container .row .vir-layout .col-25{
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    /* ==========banner============= */
+    .banner .container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner .container .row .col-50{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .banner .container .row .col-50 h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .banner .container .row .col-50 p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .banner .container .row .col-50 a{
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+        left: 40%;
+    }
+
+    /* ===============outsourcing========= */
+    .outsourcing .container .row .out-layout{
+        padding-top: 41px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .outsourcing .container .row .out-layout .col-30{
+        background: url(../IMG/out-back.jpg) no-repeat center center;
+        background-size: cover;
+        padding: 50px;
+        background-image: unset;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 15px; */
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
+    .outsourcing .container .row .heading h2{
+        font-size: 30px;
+        padding-bottom: 40px;
+        font-family: "Roboto Slab", serif;
+        margin-inline: 30px;
+    }
+
+    .outsourcing .container .row .heading p{
+        font-size: 17px;
+        margin-inline: 100px;
+    }
+
+    /* ===========virtual================== */
+    .virtual .container .row .head-layout #project{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .virtual .container .row .head-layout #manage{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .virtual .container .row .head-layout #manage a{
+        text-align: center;
+    }
+
+    .virtual .container .row .vir-layout .col-25{
+        max-width: 70%;
+        flex-basis: 70%;
+    }
+    /* ==============foundation================== */
+    .foundation .container .row h2{
+        padding-top: 30px;
+    }
+
+    .foundation .container .row .heading p.riva{
+        margin-inline: 130px;
+    }
+
+    .foundation .container .row .heading p.we{
+        margin-inline: 130px;
+    }
+
+    /* ==================industry=================== */
+    .industry .container .row .heading h2{
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .industry .container .row .heading p{
+        text-align: center;
+    }
+    /* =================enhancing================== */
+    .enhancing .container .row .heading{
+        padding-top: 30px;
+    }
+
+    .enhancing .container .row .subscribe{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .enhancing .container .row .subscribe .col-50 h4{
+        text-align: center;
+    }
+    .end .container .row .col-30{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 50px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .banner .container .row .col-50 h1{
+        font-size: 40px;
+    }
+
+    .banner .container .row .col-50 p{
+        font-size: 12px;
+    }
+
+    .banner .container .row .col-50 a{
+        font-size: 12px;
+    }
+
+    /* ===========group============== */
+    .group .container .row .heading .col-50 h2{
+        font-size: 30px;
+    }
+
+    .group .container .row .heading .col-50 p{
+        font-size: 14px;
+    }
+
+    .group .container .row .group-layout .swiper-slide .group-info h3{  
+        padding-block: 20px;
+        font-size: 23px;
+    }
+
+    .group .container .row .group-layout .swiper-slide .group-info p{
+        font-size: 13px;
+    }
+
+    /* ============outsourcing============= */
+    .outsourcing .container .row .heading h2{
+        font-size: 30px;
+        padding-bottom: 40px;
+        font-family: "Roboto Slab", serif;
+        margin-inline: 30px;
+    }
+
+    .outsourcing .container .row .heading p{
+        font-size: 14px;
+        margin-inline: 100px;
+    }
+
+    .outsourcing .container .row .out-layout .col-30{
+        max-width: 70%;
+        flex-basis: 70%;
+    }
+
+    .outsourcing .container .row .out-layout .col-30 p{
+        text-align: left;
+        font-size: 13px;
+    }
+
+    /* ============virtual============ */
+    .virtual .container .row .heading h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .virtual .container .row .head-layout #project{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .virtual .container .row .head-layout #manage{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .virtual .container .row .head-layout #project ul li{
+        font-size: 12px;
+    }
+
+    .virtual .container .row .head-layout #manage a{
+        padding-inline: 90px;
+        padding-block: 20px;
+    }
+
+    .virtual .container .row .head-layout #project{
+        max-width: 85%;
+        flex-basis: 85%;
+    }
+
+    .virtual .container .row .vir-layout .col-25{
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .virtual .container .row .vir-layout .col-25 p{
+        text-align: center;
+    }
+
+    /* =============guarantee============= */
+    .guarantee .container .row h2{
+        padding-top: 20px;
+    }
+
+    .guarantee .container .row a{
+        margin-bottom: 20px;
+    }
+
+    /* =============foundation=========== */
+    .foundation .container .row .heading p.riva{
+        margin-inline: 90px;
+    }
+
+    .foundation .container .row .heading p.we{
+        margin-inline: 90px;
+    }
+
+    .foundation .container .heading h2{
+        margin-inline: 30px;
+        font-size: 30px;
+    }
+    /* ===========splidemain============ */
+    .splidemain .container .row .splide__splider .splide__track .splide__slide .star i{
+        /* padding: 0 5px; */
+        font-size: 20px;
+        color: yellow;
+    }
+
+    .splidemain .container .row .splide__splider .splide__track .splide__slide .col-30 p{
+        font-size: 14px;
+    }
+    
+    .splidemain .container .row .splide__splider .splide__track .splide__slide .nordic span{
+        display: block;
+        text-align: center;
+        font-size: 22px;
+        font-family: "Roboto Slab",serif;
+    }
+    
+    .splidemain .container .row .splide__splider .splide__track .splide__slide .logo-touch img{
+        width: 80%;
+    }
+
+    /* ============enhancing==================== */
+    .enhancing .container .row .heading h2{
+        text-align: center;
+        font-family: "Roboto Slab", serif;
+        font-size: 31px;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .banner .container .row .col-50 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .banner .container .row .col-50 p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .banner .container .row .col-50 a{
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        left: 38%;
+    }
+
+    .banner .container .row .col-50{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .banner .container .row{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* ========outsourcing============= */
+    
+    .outsourcing .container .row .heading h2{
+        font-size: 25px;
+        padding-bottom: 40px;
+        font-family: "Roboto Slab", serif;
+        margin-inline: 30px;
+    }
+
+    .outsourcing .container .row .heading p{
+        font-size: 10px;
+        margin-inline: 11px !important;
+    }
+
+    .outsourcing .container .row .heading h2{
+        margin-inline: 9px;
+    }
+
+
+    /* ===============outsourcing========= */
+    .outsourcing .container .row .out-layout{
+        padding-top: 41px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .outsourcing .container .row .out-layout .col-30{
+        background: url(../IMG/out-back.jpg) no-repeat center center;
+        background-size: cover;
+        padding: 50px;
+        background-image: unset;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 15px; */
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .outsourcing .container .row .heading p{
+        font-size: 14px;
+        margin-inline: 50px;
+    }
+
+    .virtual .container .row .vir-layout .col-25 h3{
+        font-size: 34px;
+    }
+
+    /* ===========group============= */
+    .group .container .row .heading .col-50 h2{
+        font-size: 20px;
+    }
+
+    .group .container .row .heading .col-50 p{
+        font-size: 12px;
+    }
+
+    .group .container .row .group-layout .swiper-slide .group-info h3{  
+        padding-block: 20px;
+        font-size: 17px;
+    }
+
+    .group .container .row .group-layout .swiper-slide .group-info p{
+        font-size: 10px;
+    }
+
+    #slider .swiper-button-prev{
+        left: -300% !important;
+    }
+
+    /* ================guarantee============= */
+
+    .guarantee .container .row p{
+        padding-bottom: 45px;
+        font-size: 20px;
+        margin-inline: 65px;
+    }
+
+    .guarantee .container .row h2{
+        font-size: 30px;
+    }
+
+    .guarantee .container .row a{
+        padding-bottom: 20px;
+    }
+
+    /* ===========virtual============= */
+
+    .virtual .container .row .head-layout #project{
+        max-width: 95%;
+        flex-basis: 95%;
+    }
+    /* =============splidemain================ */
+   .splidemain .container .row .splide__splider .splide__track .splide__slide .col-30 p{
+        font-size: 10px;
+    }
+
+     /* ============enhancing==================== */
+     .enhancing .container .row .heading h2{
+        text-align: center;
+        font-family: "Roboto Slab", serif;
+        font-size: 30px;
+    }
+    .enhancing .container .row .subscribe .col-50 a{
+        padding: 8px 14px;
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        position: absolute;
+        right: 5%;
+    }
+
+    /* ==================foundation==================== */
+    @media screen and (max-width: 576px) {
+        .foundation .container .row .heading p.riva {
+            margin-inline: 23px;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .foundation .container .row .heading p.we {
+            margin-inline: 34px;
+        }
+    }
+
+    @media screen and (max-width: 476px) {
+        .guarantee .container .row p {
+            padding-bottom: 45px;
+            font-size: 15px;
+            margin-inline: 30px;
+        }
+    }
+
+    .industry .container .row .heading h2 {
+        font-size: 35px;
+        padding-bottom: 40px;
+        font-family: "Roboto Slab", serif;
+    }
+
+    .industry .container .row .heading p {
+        font-size: 15px;
+        padding-bottom: 45px;
+    }
+
+    .enhancing .container .row .subscribe .col-50 h4 {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:350px){
+    /* =========navbar=========== */
+    .navbar .container .logo img{
+        width: 90%;
+    }
+
+    /* ===========banner============ */
+    .banner .container .row .col-50 a{
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        left: 30%;
+    }
+
+    /* ===========group============= */
+    .group .container .row .heading .col-50 h2{
+        font-size: 20px;
+    }
+
+    .group .container .row .heading .col-50 p{
+        font-size: 12px;
+    }
+
+    .group .container .row .group-layout .swiper-slide .group-info h3{  
+        padding-block: 20px;
+        font-size: 12px;
+    }
+
+    .group .container .row .group-layout .swiper-slide .group-info p{
+        font-size: 7px;
+    }
+
+    #slider .swiper-button-prev{
+        left: -300% !important;
+    }
+
+    /* ==========outsourcing=============== */
+    .outsourcing .container .row .heading p{
+        font-size: 10px;
+    }
+
+    /* ============virtual============ */
+    
+    .virtual .container .row .head-layout #project ul li{
+        font-size: 10px;
+    }
+
+    .virtual .container .row .head-layout #manage a{
+        padding-inline: 60px;
+        padding-block: 17px;
+    }
+
+    /* ==========foundation=============== */
+    .foundation .container .row .heading p.riva{
+        margin-inline: 50px;
+    }
+
+    .foundation .container .row .heading p.we{
+        margin-inline: 50px;
+    }
+
+    .foundation .container .heading h2{
+        margin-inline: 30px;
+        font-size: 25px;
+    }
+
+    .guarantee .container .row a{
+        padding-bottom: 20px;
+    }
+
+    @media screen and (max-width: 350px) {
+        .foundation .container .heading h2 {
+            margin-inline: 8px;
+            font-size: 19px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .foundation .container .row .heading p.riva {
+            margin-inline: 19px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .foundation .container .row .heading p.we {
+            margin-inline: 11px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .foundation .container .row .heading p.riva {
+            margin-inline: 19px;
+            font-size: 13px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .foundation .container .row .heading p.we {
+            margin-inline: 11px;
+            font-size: 13px;
+        }
+    }
+    
+}
